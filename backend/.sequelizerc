@@ -1,0 +1,10 @@
+// backend/.sequelizerc
+'use strict';
+const path = require('path');
+
+module.exports = {
+  config:          path.resolve(__dirname, 'config', 'config.cjs'),
+  'migrations-path': path.resolve(__dirname, 'migrations'),
+  'seeders-path':    path.resolve(__dirname, 'seeders'),   // 若沒有可忽略
+  'models-path':     path.resolve(__dirname, 'src', 'models'),
+};

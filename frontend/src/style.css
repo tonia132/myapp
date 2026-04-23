@@ -1,0 +1,35 @@
+:root {
+  /* 全域色彩變數 */
+  --app-page-bg: #f7f8fa;
+  --app-text-color: #213547;
+  --app-link: #646cff;
+  --app-link-hover: #535bf2;
+  --app-radius: 12px;
+}
+
+.dark {
+  --app-page-bg: #171a1f;
+  --app-text-color: #e6e8eb;
+  --app-link: #8aa0ff;
+  --app-link-hover: #aab6ff;
+}
+
+/* 讓瀏覽器元件理解深淺模式 */
+:root { color-scheme: light dark; }
+
+/* 版面重置 */
+html, body, #app { height: 100%; }
+body { margin: 0; background: var(--app-page-bg); color: var(--app-text-color); }
+#app { min-height: 100vh; display:flex; flex-direction:column; max-width: unset; padding: 0; text-align: initial; }
+
+/* 連結 */
+a { color: var(--app-link); text-decoration: none; }
+a:hover { color: var(--app-link-hover); }
+
+/* 容器工具類 */
+.container { width: min(1280px, 100% - 24px); margin-inline: auto; }
+
+/* 動畫 */
+.fade-enter-active, .fade-leave-active { transition: opacity .18s ease; }
+.fade-enter-from, .fade-leave-to { opacity: 0; }
+

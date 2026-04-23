@@ -1,0 +1,85 @@
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Logs
+# =========================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Environment files
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Node.js
+# =========================
+node_modules/
+**/node_modules/
+
+# =========================
+# Build outputs
+# =========================
+dist/
+build/
+coverage/
+**/dist/
+**/build/
+**/coverage/
+
+# =========================
+# Frontend (Vite / Vue / Vitest / Playwright)
+# =========================
+frontend/dist/
+frontend/coverage/
+frontend/.vite/
+frontend/.vitest/
+frontend/playwright-report/
+frontend/test-results/
+frontend/.playwright/
+
+# Optional cache
+frontend/.cache/
+
+# =========================
+# Backend
+# =========================
+backend/dist/
+backend/build/
+backend/coverage/
+backend/uploads/
+backend/tmp/
+backend/temp/
+
+# =========================
+# Database / runtime files
+# =========================
+*.sqlite
+*.sqlite3
+*.db
+*.pid
+*.seed
+
+# =========================
+# Archives
+# =========================
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z

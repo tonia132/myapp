@@ -1,0 +1,46 @@
+// frontend/src/api/index.js
+import api, {
+  apiBase,
+  apiUrl,
+  getApiBase,
+  getToken,
+  getUser,
+  setAuth,
+  clearAuth,
+  authHeaders,
+  apiFetch,
+  apiJson,
+  apiText,
+  apiBlob,
+  apiForm,
+  apiGet,
+  apiPost,
+  apiPut,
+  apiPatch,
+  apiDelete,
+  downloadFile,
+} from './client'
+
+export {
+  apiBase,
+  apiUrl,
+  getApiBase,
+  getToken,
+  getUser,
+  setAuth,
+  clearAuth,
+  authHeaders,
+  apiFetch,
+  apiJson,
+  apiText,
+  apiBlob,
+  apiForm,
+  apiGet,
+  apiPost,
+  apiPut,
+  apiPatch,
+  apiDelete,
+  downloadFile,
+}
+
+export default api
