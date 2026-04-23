@@ -25,6 +25,7 @@ pnpm-debug.log*
 .env
 .env.*
 !.env.example
+!.env.production.example
 
 # =========================
 # Node.js
@@ -49,11 +50,9 @@ frontend/dist/
 frontend/coverage/
 frontend/.vite/
 frontend/.vitest/
+frontend/.playwright/
 frontend/playwright-report/
 frontend/test-results/
-frontend/.playwright/
-
-# Optional cache
 frontend/.cache/
 
 # =========================
